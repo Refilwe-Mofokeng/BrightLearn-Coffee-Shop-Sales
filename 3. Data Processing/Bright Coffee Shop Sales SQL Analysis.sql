@@ -2,6 +2,10 @@
 SELECT transaction_date,
       dayname(transaction_date) AS day_name, 
       monthname(transaction_date) AS month_name, 
+      CASE WHEN monthname(transaction_date) IN ('Jan', 'Feb') THEN 'Summer'
+           WHEN monthname(transaction_date) IN ('Mar','Apr', 'May') THEN 'Autumn'
+           WHEN monthname(transaction_date) IN ('Jun') THEN 'Winter'
+           END AS season,
       dayofmonth(transaction_date) AS day_of_month, -- allows us to extract the day of month was the transaction performed
       date_format(transaction_time, 'HH:mm:ss') AS purchase_time, -- allows us to extract the time from the transaction time column
 
@@ -37,6 +41,10 @@ FROM workspace.default.coffeeshop_analysis
 GROUP BY transaction_date, --- "group by" the columns that were not aggregated in our select statement
          dayname(transaction_date),
          monthname(transaction_date),
+         CASE WHEN monthname(transaction_date) IN ('Jan', 'Feb') THEN 'Summer'
+              WHEN monthname(transaction_date) IN ('Mar','Apr', 'May') THEN 'Autumn'
+              WHEN monthname(transaction_date) IN ('Jun') THEN 'Winter'
+              END,
          store_location,
          product_category,
          product_type,
@@ -50,5 +58,6 @@ GROUP BY transaction_date, --- "group by" the columns that were not aggregated i
            END,
          CASE when dayname(transaction_date) IN ('Sat', 'Sun') then 'Weekend'
               else 'Weekday'
-         END,
+         END, 
          dayofmonth(transaction_date);
+         
