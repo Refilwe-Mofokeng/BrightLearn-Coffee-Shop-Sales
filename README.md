@@ -90,7 +90,7 @@ The analysis was conducted in a structured, end-to-end workflow:
 ## Tools Used
 
 - **Miro** → Project planning and structuring the analysis  
-- **Canva** → Timeline creation and project management visuals  
+- **Canva** → Timeline creation and project management planning
 - **Databricks (SQL)** → Data cleaning, transformation, and feature engineering  
 - **Microsoft Excel** → Data analysis (Pivot Tables) and visualisation  
 - **PowerPoint** → Presentation of insights and recommendations  
