@@ -67,7 +67,7 @@ The analysis was conducted in a structured, end-to-end workflow:
 ## Recommendations
 
 - **Drive Off-Peak Demand:**  
-  Introduce targeted promotions and offerings to increase afternoon, evening, and weekend sales.
+  Introduce time-based targeted promotions and offerings to increase afternoon, evening, and weekend sales.
 
 - **Simplify Customer Choice:**  
   Highlight bestsellers and recommended items to reduce decision fatigue and guide purchasing behaviour.
