@@ -45,7 +45,7 @@ The analysis was conducted in a structured, end-to-end workflow:
 ## Key Insights
 
 - **Balanced Store Performance:**  
-  All locations contributed equally to total revenue, indicating consistent operations across stores.
+  All locations contributed approximately 33% to total revenue, indicating consistent operations across stores.
 
 - **Strong Revenue Growth:**  
   Revenue increased significantly over time, with notable growth from January to June.
