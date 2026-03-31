@@ -6,8 +6,8 @@ SELECT transaction_date,
            WHEN monthname(transaction_date) IN ('Mar','Apr', 'May') THEN 'Autumn'
            WHEN monthname(transaction_date) IN ('Jun') THEN 'Winter'
            END AS season,
-      dayofmonth(transaction_date) AS day_of_month, -- allows us to extract the day of month was the transaction performed
-      date_format(transaction_time, 'HH:mm:ss') AS purchase_time, -- allows us to extract the time from the transaction time column
+      dayofmonth(transaction_date) AS day_of_month, -- allows me to extract the day of month was the transaction performed
+      date_format(transaction_time, 'HH:mm:ss') AS purchase_time, -- allows me to extract the time from the transaction time column
 
       CASE when dayname(transaction_date) IN ('Sat', 'Sun') then 'Weekend'
            else 'Weekday'
