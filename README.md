@@ -35,7 +35,19 @@ The analysis was conducted in a structured, end-to-end workflow:
   - Customer spending behaviour
 - Developed visualisations to highlight key patterns and trends
 
-### 4. Insights & Presentation
+### 4. Dashboard Development (Looker Studio)
+Built an interactive dashboard to support stakeholder exploration and decision-making.
+
+Dashboard includes:
+- Executive Overview
+- Sales Trends Analysis
+- Product Performance
+- Store Performance
+
+**Dashboard Link:**  
+[https://datastudio.google.com/reporting/ab382761-8117-4232-8306-edc0c88e2370]
+
+### 5. Insights & Presentation
 - Synthesised findings into executive-level insights
 - Structured recommendations aligned to business impact
 - Compiled into a presentation for decision-makers
@@ -113,4 +125,4 @@ The analysis shifts the focus from expanding product offerings to **optimising d
 
 For any questions or collaboration opportunities:
 
-**Refilwe Mofokeng: refilwemofokeng@gmail.com**
+**Refilwe Mofokeng: www.linkedin.com/in/refilwe-mofokeng**
